@@ -90,6 +90,12 @@ interactive mode is remained on.
 
 
 ### Defining Properties
+To define properties, we use the following syntax: 
+```thymeleaftemplatesexpressions
+${name-of-property}
+```
+Here is our example template locate in `src/main/resources/archetype-resources/main/java/`
+
 ```java
 package $package;
 
